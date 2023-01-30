@@ -3,7 +3,7 @@
 &emsp;&emsp; 
 </p> 
 -->
-# 图形应用界面开发 （PyQt5 教程）
+# 图形应用界面开发 （Pyside2 & PyQt5 教程）
 目前基于python的图形界面开发工具有：
 
 - Tkinter
@@ -17,15 +17,15 @@
 &emsp;&emsp;基于wxWidgets 库，控件丰富但稳定性差，文档少。 
 </p>
 
-- pyside2 和 PyQt 
+- Pyside2 和 PyQt 
 <p style="text-align:justify">
 &emsp;&emsp;基于 Qt 库，控件丰富、用户体验好但占用体积大。 
 </p>
 
-**<font color="deep red">本文主要记录PyQt5 库的使用。</font>**
+**<font color="deep red">本文主要记录 Pyside2 & PyQt5 库的使用。</font>**
 
 ## 1 安装 
-使用 **pip** 命令：
+使用 **pip** 命令 (豆瓣源)：
 ```python
 # pyside2
 
@@ -106,7 +106,7 @@ from PySide2.QtUiTools import QUiLoader
 class Stats():
     def __init__(self):
         # Pyside2 库加载方式
-        self.window = QUiLoader().load("***.ui")
+        self.window = QUiLoader().load("***.ui")  # 写绝对路径不容易报错
 
         # PyQt5 库加载方式
         # self.window = uic.loadUi("***.ui")
@@ -115,7 +115,7 @@ class Stats():
 
 
     def handleGen(self):
-        info = self.textEdit.toPlainText()
+        info = self.window.textEdit.toPlainText()
 
         nickname = "小" + info[-1]
 
@@ -171,4 +171,9 @@ app.exec_()
 
 - **界面布局 Layout**
 
+[参考](https://www.byhy.net/tut/py/gui/qt_03/#layout-%E7%A4%BA%E4%BE%8B)
 
+
+## 4 发布程序
+
+使用 **PyInstaller**
