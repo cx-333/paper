@@ -1,0 +1,11 @@
+# 1 生成 mat 格式数据需要设置的超参数
+
+dna_data_path: D:/omicsdata/BRCA/DNA.csv
+dna_save_path: D:/omicsdata/BRCA/DNA_Mat
+
+rna_data_path: D:/omicsdata/BRCA/RNA.csv
+rna_save_path: D:/omicsdata/BRCA/RNA_Mat
+
+mirna_data_path: D:/omicsdata/BRCA/miRNA.csv
+mirna_save_path: D:/omicsdata/BRCA/miRNA_Mat
+

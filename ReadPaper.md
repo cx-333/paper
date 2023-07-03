@@ -58,22 +58,47 @@ Coefficient）。
 &emsp;&emsp;该论文主要让大家熟悉了解常见的特征选择及特征提取算法。
 ### 备注：
 &emsp;&emsp; 略
-## Paper 2
+## Paper 2 [Feature Selection Using a Neural Network With Group Lasso Regularization and Controlled Redundancy](https://pubmed.ncbi.nlm.nih.gov/32396104/)
 
 ### 简介
+&emsp;&emsp;
 
 ### 主要内容
+&emsp;&emsp;
 
 ### 结论
+&emsp;&emsp;
 
 ### 备注
+&emsp;&emsp;
 
-## Paper 3
+## Paper 3 [Low Dimensional Trajectory Hypothesis is True: DNNs Can Be Trained in Tiny Subspaces](https://ieeexplore.ieee.org/document/9782552)
 
 ### 简介
+&emsp;&emsp;
 
 ### 主要内容
+&emsp;&emsp;
 
 ### 结论
+&emsp;&emsp;
 
 ### 备注
+&emsp;&emsp;
+
+## Paper 4 [Multimodal Dynamics: Dynamical Fusion for Trustworthy Multimodal Classification](https://ieeexplore.ieee.org/document/9878603)
+
+### 简介
+&emsp;&emsp;
+
+### 主要内容
+&emsp;&emsp;
+
+### 结论
+&emsp;&emsp;
+
+### 备注
+&emsp;&emsp;
+
+
+

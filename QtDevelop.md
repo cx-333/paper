@@ -86,7 +86,7 @@ app.exec_()
 ## 3 界面布局和设置
 
 <p style="text-align:justify">
-&emsp;&emsp; 通过designer.exe 制作自己喜欢的 UI 界面。进入自己安装的库里，找designer.exe 文件，双击打开即可进行操作。打开后界面如下所示：
+&emsp;&emsp; 通过designer.exe ("{environment}/Lib/site-packages/qt5_applications/Qt/bin/") 制作自己喜欢的 UI 界面。进入自己安装的库里，找designer.exe 文件，双击打开即可进行操作。打开后界面如下所示：
 </p> 
 
 ![](Qtfigures/fig2.png)
@@ -173,6 +173,7 @@ app.exec_()
 
 [参考](https://www.byhy.net/tut/py/gui/qt_03/#layout-%E7%A4%BA%E4%BE%8B)
 
+### 3.1 QSS -- 设计各元素样式
 
 ## 4 发布程序
 
